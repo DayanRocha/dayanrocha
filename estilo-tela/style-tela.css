@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+ /* Estilo para telas retrato */
+
+
+.menu-lista {
+    display: none;
+
+}
+.conteiner-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+.titulo-paragrafo {
+    height: 50%;
+}
+
+.logo-meio img {
+    margin: auto;
+    margin-bottom: 25px;
+    width: 200px;
+    margin-top: 50px;
+ }
+
+.titulo-meio {
+    font-size: 2rem; 
+    color: rgb(248, 0, 132);
+}
+
+.sessao02 {
+    width: 100vw;
+}
+.descricao-meio {
+    width: 300px;
+    line-height: normal;
+ }
+
+.sessao02 p {
+    line-height: normal;
+    padding: 50px 20px;  
+}
+
+.rodape {
+    background-color: rgb(66, 65, 65);
+    width: 100vw;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    padding: 50px 50px;
+    justify-content: center;
+    gap: 35px;
+}
+
+.logos img {
+    width: 50px;
+    border-radius: 50%;
+
+}
