@@ -14,12 +14,15 @@
         width: 100vw;
         display: flex;
         flex-direction: column;
-       justify-content: space-around;
-
+        justify-content: center;
     }
-    
     .logo-meio img {
-       display: none;
+       width: 200px;
+       margin: auto;
+    }
+    .text-meio {
+        display: flex;
+        flex-direction: column;
     }
     
     .titulo-meio {
