@@ -43,6 +43,27 @@
         line-height: 30px;
         font-weight: 600;
     }
+    .rodape {
+        background-color: #555454;
+        padding: 20px;
+    }
+    .logos {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .logos img {
+        width: 50px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 10px black;
+        
+    }
+    
+    .logos img:hover {
+        transform: translateY(-5px) translateX(-5px);
+        transition: .2s all ease-in-out;
+    }   
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /* Estilo para phone até 768px até 992px */
@@ -88,5 +109,26 @@
         font-weight: 600;
         line-height: 30px;
     }
+    .rodape {
+        background-color: #555454;
+        padding: 20px;
+    }
+    .logos {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .logos img {
+        width: 50px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 10px black;
+        
+    }
+    
+    .logos img:hover {
+        transform: translateY(-5px) translateX(-5px);
+        transition: .2s all ease-in-out;
+    }   
       
 }
