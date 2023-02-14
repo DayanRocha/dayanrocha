@@ -14,14 +14,11 @@
  }
 
 .titulo-paragrafo {
-    height: 50%;
+    margin-top: 80px;
 }
 
 .logo-meio img {
-    margin: auto;
-    margin-bottom: 25px;
-    width: 200px;
-    margin-top: 50px;
+    display: none;
  }
 
 .titulo-meio {
@@ -35,7 +32,7 @@
 .descricao-meio {
     width: 300px;
     line-height: normal;
- }
+}
 
 .sessao02 p {
     line-height: normal;
