@@ -6,7 +6,7 @@
     font-size: 62,5%;
 }
 
-@media screen and (max-width: 768px) {  /* Estilo para phone até 768px */
+@media screen and (min-width: 360px) and (max-width: 768px) {  /* Estilo para phone até 768px */
     .menu-lista {
         display: none;
     }
@@ -14,7 +14,7 @@
         width: 100vw;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
     }
     .logo-meio img {
        width: 200px;
@@ -25,10 +25,10 @@
         flex-direction: column;
     }
     
-    .titulo-meio {
+    .text-meio h1 {
         text-align: center;
         font-size: 40px;
-        color: rgb(145, 2, 78);
+        color: rgb(241, 73, 166);
     }
     .text-meio p {
         text-align: justify;
